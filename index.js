@@ -98,7 +98,7 @@ app.delete("/articles/edit/delete", async (req, res) => {
         const result = pool.query("DELETE FROM articles WHERE id=$1", [id])
 
         res.status(200).json({
-            message : `le nom de l'article à été modifié`,
+            message : `le nom de l'article à été supprimé`,
             result: result
         })
 
