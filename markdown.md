@@ -1,6 +1,6 @@
 **TP 2 de Clémence Bricout**
 
-##1- Effectuez une requête GET sur les comments.
+## 1- Effectuez une requête GET sur les comments.
 
 mettre dans postman cette adresse en **GET**  :
 https://jsonplaceholder.typicode.com/comments 
@@ -17,7 +17,7 @@ le premier renvoyé est :
 
 
 
-##2-Effectuez une requête POST sur les todos, en vous basant sur les paramètres existantspour créer votre objet (au format x-www-form-urlencoded).
+## 2-Effectuez une requête POST sur les todos, en vous basant sur les paramètres existantspour créer votre objet (au format x-www-form-urlencoded).
 
 on met dans postman en **POST** l'adresse suivante :
 https://jsonplaceholder.typicode.com/todos
@@ -38,7 +38,7 @@ et cela renvoie ça avec le code 201 Created :
 
 
 
-##3-Effectuez une requête PATCH sur les posts, en vous basant sur un objet existant et ses paramètres (modifiez le title et le body).
+## 3-Effectuez une requête PATCH sur les posts, en vous basant sur un objet existant et ses paramètres (modifiez le title et le body).
 
 je met dans postman l'adresse suivante avec **GET** afin de **voir l'article que je vais modifier** :
 https://jsonplaceholder.typicode.com/posts/201
@@ -69,7 +69,7 @@ cela renvoie le contenu après modification :
         "body": "contenu de l'article"
     }
 
-##4-Effectuez une requête GET permettant d’afficher les commentaires associés au post ayant l’identifiant 1.
+## 4-Effectuez une requête GET permettant d’afficher les commentaires associés au post ayant l’identifiant 1.
 
 Pour voir les commentaires associés à l'article, nous allons en **GET** dans : 
 **https://jsonplaceholder.typicode.com/posts/1/comments**
@@ -83,7 +83,7 @@ cela nous rend des commentaires, dont le premier est :
         "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
     },
 
-##5- Effectuez une requête GET permettant d’afficher les photos affiliées à l’album numéro 2.
+## 5- Effectuez une requête GET permettant d’afficher les photos affiliées à l’album numéro 2.
 
 Nous recherchons avec la methode **GET***, l'url :
 **https://jsonplaceholder.typicode.com/albums/2/photos**
