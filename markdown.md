@@ -1,4 +1,4 @@
-**TP 2 de Clémence Bricout**
+# TP 2 de Clémence Bricout
 
 ## 1- Effectuez une requête GET sur les comments.
 
