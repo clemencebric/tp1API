@@ -7,7 +7,7 @@ https://jsonplaceholder.typicode.com/comments
 cela nous renvoie toutes les informations de tous les commentaires présents dans la base de données
 le premier renvoyé est :     
 
-{
+    {
         "postId": 1,
         "id": 1,
         "name": "id labore ex et quam laborum",
@@ -29,12 +29,12 @@ body bonjour je suis du texte
 
 et cela renvoie ça avec le code 201 Created :
 
-{
-    "name": "clem",
-    "email": "clem@gmail.com",
-    "body": "bonjour je suis du texte",
-    "id": 201
-}
+    {
+        "name": "clem",
+        "email": "clem@gmail.com",
+        "body": "bonjour je suis du texte",
+        "id": 201
+    }
 
 
 
@@ -45,11 +45,11 @@ https://jsonplaceholder.typicode.com/posts/201
 
 cela me renvoie :
 
-{
-    "userId": 1,
-    "id": 1,
-    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 }
 
 je **modifie** donc cet article en utilisant **PATCH** :
@@ -62,12 +62,12 @@ body    contenu de l'article
 
 cela renvoie le contenu après modification :
 
-{
-    "userId": 1,
-    "id": 1,
-    "title": "titre de l'article",
-    "body": "contenu de l'article"
-}
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "titre de l'article",
+        "body": "contenu de l'article"
+    }
 
 ##4-Effectuez une requête GET permettant d’afficher les commentaires associés au post ayant l’identifiant 1.
 
@@ -75,13 +75,13 @@ Pour voir les commentaires associés à l'article, nous allons en **GET** dans :
 **https://jsonplaceholder.typicode.com/posts/1/comments**
 
 cela nous rend des commentaires, dont le premier est :
- {
+    {
         "postId": 1,
         "id": 1,
         "name": "id labore ex et quam laborum",
         "email": "Eliseo@gardner.biz",
         "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
-},
+    },
 
 ##5- Effectuez une requête GET permettant d’afficher les photos affiliées à l’album numéro 2.
 
